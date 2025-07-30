@@ -7,7 +7,7 @@ set -e
 npm run build
 
 # Masuk ke folder hasil build
-cd dist
+cd frontend/dist
 
 # Inisialisasi git baru di dalam folder dist dan commit
 git init
